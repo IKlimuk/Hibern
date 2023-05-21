@@ -11,7 +11,6 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 
-
 public class StudentController {
     private final StudentServise studentServise;
     @GetMapping("/stud")

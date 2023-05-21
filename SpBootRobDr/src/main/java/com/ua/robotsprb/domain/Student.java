@@ -7,8 +7,8 @@ import lombok.Data;
 @Builder
 public class Student {
 
-    private String name;
+    private int id;
+    private String firstName;
     private String lastName;
-    private int age;
-    private String group;
+    private int rating;
 }
